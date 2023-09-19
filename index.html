@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.1-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-light text-center py-2">
+        <div class="container">
+            <h1>Speed Writing</h1>
+        </div>
+    </header>
+    <main>
+        <section class="hero text-center d-flex min-vh-100 align-items-center juctify-content-center">
+            <div class="container">
+                <!-- start -->
+                <div class="hero__start">
+                    <h2 class="start__count">5</h2>
+                    <button class="btn btn-primary start__btn">Start</button>
+                </div>
+                <!-- game -->
+                <div class="hero__game bg-light w-50 mx-auto shadow py-2 rounded position-relative" style="border-radius:10px ;">
+                    <p class="game__count position-absolute top-0 end-0 bg-info-subtle py-2 rounded-pill">60</p>
+                    <div class="random__text-box">
+                        <h3 class="random__text">
+                            Salom
+                        </h3>
+                    </div>
+                    <input type="text" class="hero_game__input form-control w-50 shadow mx-auto">
+                </div>
+                <!-- end -->
+                <div class="hero_game__end">
+                    <h4 class="result__game"></h4>
+                    <button class="restart btn btn-primary">Restart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="./Javascript/main.js"></script>
+</body>
+</html>
